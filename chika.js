@@ -62,9 +62,9 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Sofyan AMV\n'
+            + 'FN:Kemol\n'
             + 'ORG:Owner Bot;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281227825649:+62 812-2782-5649\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6285704828298:+62 812-2782-5649\n'
             + 'END:VCARD'
        
 const vcard1 = 'BEGIN:VCARD\n'
@@ -74,15 +74,15 @@ const vcard1 = 'BEGIN:VCARD\n'
             + 'TEL;type=CELL;type=VOICE;waid=6281534162316:+62 815-3416-2316\n'
             + 'END:VCARD'
 
-prefix = "z"
-name = "CHIKA BOT"
-rdaftar = "Subscribe Sofyan AMV"
-rmenu = "Subscribe Sofyan AMV"
-botinfo = "Subscribe Sofyan AMV"
+prefix = "."
+name = "KEMOL BOT"
+rdaftar = "KEMOL BOT"
+rmenu = "KEMOL BOT"
+botinfo = "KEMOL BOT"
 limitt = 50
 memberLimit = 0
 ban = []
-premium = ["6281227825649@s.whatsapp.net","6281534162316@s.whatsapp.net"]
+premium = ["6285704828298@s.whatsapp.net","6281534162316@s.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -394,12 +394,12 @@ async function starts() {
 				dmenu = `「 *ғᴜᴊɪᴡᴀʀᴀ ᴄʜɪᴋᴀ* 」
 				
 ◪ *ɪɴғᴏ ᴄʀᴇᴀᴛᴏʀ*
-  ❏ ɴᴀᴍᴀ: sᴏғʏᴀɴ ᴀᴍᴠ 
+  ❏ ɴᴀᴍᴀ: Kemol Botz
   ❏ ᴡʜᴀᴛsᴀᴘᴘ: wa.me/6281227825649 
-  ❏ ᴛᴇᴀᴍ: ᴍx-ᴛ ᴇ ᴀ ᴍ
+  ❏ ᴛᴇᴀᴍ: My Team
 ----------------------------------
 ◪ *ɪɴғᴏ ʙᴏᴛ*
-  ❏ ɴᴀᴍᴀ: ғᴜᴊɪᴡᴀʀᴀ ᴄʜɪᴋᴀ
+  ❏ ɴᴀᴍᴀ: Kemol Botz
   ❏ ᴠᴇʀsɪ: 2.0
   ❏ ʟɪʙ: ʙᴀɪʟᴇʏs 
   ❏ ᴘʀᴇғɪx: ${prefix}
@@ -759,15 +759,7 @@ async function starts() {
   ├─ ❏ ${prefix}ᴄʟᴇᴀʀᴀʟʟ
   ├─ ❏ ${prefix}ᴅᴇʟᴇᴛᴇ
   ├─ ❏ ${prefix}ᴄʟᴏɴᴇ
-  └─ ❏ ${prefix}ʟᴇᴀᴠᴇ
-  
-◪  *_ᴛǫᴛᴏ_* 
-   ❏ sᴏғʏᴀɴ ᴀᴍᴠ 
-   ❏ ᴍʀɢ{108ᴘ}* 
-   ❏ ᴍʀ.ᴀ43ɢ 
-   ❏ ʀɪᴜ 
-   ❏ ᴀʀᴀsʜɪ 
-   ❏ ʟᴏʟʜᴜᴍᴀɴ`
+  └─ ❏ ${prefix}ʟᴇᴀᴠᴇ`
                 
 chika.sendMessage(from, dmenu, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "Subscribe Sofyan AMV", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('clogo.jpg')}}}})
 chika.sendMessage(from, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true}) 	    
