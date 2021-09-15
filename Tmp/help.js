@@ -4,9 +4,9 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │× ᴛᴇʟᴇᴘᴏɴ
 │ᴍᴇʟᴀɴɢɢᴀʀ? ʙʟᴏᴄᴋ!
 │ᴋᴇᴛɪᴋ #ᴍᴇɴᴜ
-│ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ғɪᴛᴜʀ ᴄʜɪᴋᴀ ʙᴏᴛ
+│untuk melihat menu Kemol bot
 ┬
-╰──────「 *_ᴄʜɪᴋᴀ ʙᴏᴛ_* 」
+╰──────「 *_kemol bot_* 」
 `
 }
 
@@ -37,8 +37,8 @@ const donasi = (name) => {
 	return `       
 ╭──────「 *_ᴅᴏɴᴀꜱɪ_* 」
 ┴
-│√ ᴘᴜʟꜱᴀ : 0812-2782-5649
-│√ ꜱᴀᴡᴇʀɪᴀ : https://saweria.co/chikawabot 
+│√ ᴘᴜʟꜱᴀ : 0822-4573-1529
+│√ ꜱᴀᴡᴇʀɪᴀ : https://saweria.co/kemolgng
 │
 │\`\`\`ᴘᴜʟꜱᴀ\`\`\`
 │ 5ᴋ ɪɴᴠɪᴛᴇ ʙᴏᴛ ᴋᴇ ɢʀᴜᴘ ꜱᴇʟᴀᴍᴀ 1 ʙᴜʟᴀɴ
