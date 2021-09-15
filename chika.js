@@ -103,7 +103,7 @@ async function starts() {
 		console.log(color('[','red'), color('!','yellow'), color(']','red'), color(' Scan the qr code above', 'green'))
 	})
 
-	fs.existsSync('./session.json') && chika.loadAuthInfo('./session.json')
+	fs.existsSync('src/session.json') && chika.loadAuthInfo('src/session.json')
 	chika.on('connecting', () => {
 		start('2', 'Connecting...')
 	})
@@ -111,7 +111,7 @@ async function starts() {
 		success('2', 'Connected')
 	})
 	await chika.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./session.json', JSON.stringify(chika.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('src/session.json', JSON.stringify(chika.base64EncodedAuthInfo(), null, '\t'))
 
 	chika.on('group-participants-update', async (anu) => {
 		if (!welkom.includes(anu.jid)) return
